@@ -13,7 +13,7 @@ class BooksList extends Component{
         return(
             <div className="book" id={book.id}>
                 <div className="book-top">
-                    <div className="book-cover" style={{width:128,height:192,backgroundImage: `url("${book.imageLinks.thumbnail}")` }}></div>
+                    <div className="book-cover" style={{width:128, height:192, backgroundImage: `url("${book.imageLinks.thumbnail}")` }}></div>
                     <ChangeOfShelf
                         book={book}
                         handleChange={this.props.handleChange}/>
