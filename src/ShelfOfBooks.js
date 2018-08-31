@@ -4,11 +4,7 @@ import BooksList from "./BooksList.js";
 
 
 class ShelfOfBooks extends Component {
-    static propTypes = {
-        title: PropTypes.string.isRequired,
-        books: PropTypes.array.isRequired,
-        hangleChange: PropTypes.func.isRequired
-    };
+    
 
     render() {
         return (
