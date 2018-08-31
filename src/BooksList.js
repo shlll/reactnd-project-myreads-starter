@@ -3,10 +3,7 @@ import PropTypes from "prop-types";
 import ChangeOfShelf from "./ChangeOfShelf.js";
 
 class BooksList extends Component{
-    static propTypes = {
-        book: PropTypes.object.isRequired,
-        handleChange: PropTypes.func.isRequired
-    };
+
 
     render(){
         const { book } = this.props;
