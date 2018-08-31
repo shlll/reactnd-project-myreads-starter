@@ -4,10 +4,7 @@ import { Link } from "react-router-dom";
 import BooksList from "./BooksList.js";
 
 class SearchBooks extends Component{
-    static propTypes = {
-        books: PropTypes.array.isRequired,
-        handleChange: PropTypes.func.isRequired
-    };
+    
 
     handleChange = (data) => {
         this.props.handleChange(data.trim());
