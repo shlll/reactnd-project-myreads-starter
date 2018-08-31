@@ -4,10 +4,7 @@ import * as BooksAPI from './BooksAPI'
 
 
 class ChangeOfShelf extends Component{
-    static propTypes = {
-        book: PropTypes.object.isRequired,
-        handleChange: PropTypes.func.isRequired
-    };
+   
 
     state = {
         newShelf: this.props.book.shelf,
@@ -23,9 +20,7 @@ class ChangeOfShelf extends Component{
 
  
    
-    
-
-    render(){
+   render(){
         return(
             <div className="book-shelf-changer">
                 <select
